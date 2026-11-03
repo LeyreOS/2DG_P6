@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta Profesional Tree Services LO</title>
+  <style>
+    :root{
+            --fondo-color:#8fae92;
+            --neutral-b-color: black;
+            --neutral-w-color: white;
+    }
+   
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:var(--neutral-w-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      max-width: 800px;
+      background-color: var(--fondo-color);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .card-image-container {
+      flex: 1;
+      min-height: 250px;
+    
+    }
+
+    .card-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  
+    .card-content {
+      flex: 1.5;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color:var(--neutral-b-color);
+    }
+
+   
+    .card-title {
+      font-size: 1.8rem;
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+    }
+
+    .card-services {
+      list-style: none;
+      margin: 25px 0;
+      text-align: center;
+    }
+
+    .card-services li {
+      font-size: 1.3rem;
+      margin-bottom: 6px;
+      color:var(--neutral-b-color);
+    }
+
+    .card-footer {
+      font-family: 'Georgia', serif;
+      font-size: 1.1rem;
+      text-align: center;
+      color:var(--neutral-b-color);
+    }
+
+   
+    @media (max-width: 650px) {
+      .card {
+        flex-direction: column; 
+        max-width: 400px;
+      }
+
+      .card-image-container {
+        height: 250px;
+      }
+
+      .card-title {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .card-content {
+        padding: 25px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <article class="card">
+    <div class="card-image-container">
+      <img src="/Users/leyreortellssarrio/Documents/2n D.G. 1CUATRI/tecnicas de reproducción/p6/nagy-arnold-X_IvVDuHvDQ-unsplash.jpg" alt="Planta maceta Tree Services">
+    </div>
+
+    
+    <div class="card-content">
+      <h1 class="card-title">PROFESIONAL<br>TREE SERVICES LO.</h1>
+
+      <ul class="card-services">
+        <li>-Renovar</li>
+        <li>-Plantar</li>
+        <li>-Cuidar</li>
+        <li>-Reparar</li>
+        <li>-Restaurar</li>
+      </ul>
+
+      <p class="card-footer">Licencia certificada de leyre Ortells Sarrió</p>
+    </div>
+  </article>
+
+</body>
+</html>
